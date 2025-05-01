@@ -14,17 +14,17 @@ import random
 # -----------------------------------------------------
 
 
-def game():
-    print("Game begins")
-    score=random.randint(1,100)
-    with open("highscore.txt") as f :
-        highscore=f.read()
-    print(f"your score {score}")
+# def game():
+#     print("Game begins")
+#     score=random.randint(1,100)
+#     with open("highscore.txt") as f :
+#         highscore=f.read()
+#     print(f"your score {score}")
 
-    if(score>int(highscore)):
-       with open("highscore.txt","w") as f :
-        f.write(f"{score}")
+#     if(score>int(highscore)):
+#        with open("highscore.txt","w") as f :
+#         f.write(f"{score}")
 
 
    
-game()
+# game()
