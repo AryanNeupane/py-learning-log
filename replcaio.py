@@ -18,7 +18,7 @@ for i in words:
     newC=content.replace(i,"##########")
 
 with open("Poems.txt","w") as f:
-    f.write(newC)
+    f.write(newC)   
 
 
 
