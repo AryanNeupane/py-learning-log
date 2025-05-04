@@ -6,6 +6,7 @@ class school:
         self.name=name
         self.address=address,
         self.level=level
+        print("school Details Fillup constructor")
 
     @staticmethod
     def quality():
