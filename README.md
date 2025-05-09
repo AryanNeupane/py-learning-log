@@ -8,3 +8,4 @@ constructor
 -tkinter
 pandas
 -numpy
+db-connection
